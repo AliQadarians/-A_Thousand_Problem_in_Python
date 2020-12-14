@@ -1,0 +1,7 @@
+PI=round(22/7,2)
+radius=float(input("Enter radius of sphere :"))
+surefaceArea=4 * PI * (radius**2)
+volume=(4/3) * PI * (radius**3)
+print("PI is {}".format(PI))
+print("sureface area of shere is {}".format(surefaceArea))
+print("volume of sphere is {}".format(volume))

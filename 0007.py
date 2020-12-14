@@ -1,0 +1,7 @@
+print("*************************")
+print("*   making complex      *")
+print("*************************")
+realPart=float(input("Enter real part :    "))
+imagePart=float(input("Enter image part :   "))
+mackComplex=complex(realPart,imagePart)
+print(mackComplex)

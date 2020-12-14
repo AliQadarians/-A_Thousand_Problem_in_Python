@@ -1,0 +1,5 @@
+r1 = float(input("Enter R1 : "))
+r2 = float(input("Enter R2 : "))
+r3 = float(input("Enter R3 : "))
+R = (r1 * r2 * r3) / (r2*r3 + r1*r3 + r1*r2)
+print("R is ",R)
